@@ -1,0 +1,85 @@
+/* CSS code for the SignUp Page */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Styles for the main container */
+  .maincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  /* Styles for the container */
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for the h1 element */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the form */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for the common class */
+  .common {
+    margin-bottom: 15px;
+  }
+  
+  /* Styles for the label element */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Styles for the input elements */
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for the button element */
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the button element on hover */
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styles for the span element */
+  span {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  /* Styles for the anchor element within the span */
+  span a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
